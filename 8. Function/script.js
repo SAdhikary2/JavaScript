@@ -26,10 +26,25 @@ sumOfTwoNumbers(e, f);
 
 
 //FUNCTION EXPRESSION/ANYNOMOUS FUNCTION
-// IN ANNYNOMOUS FUNCTION WE CANNOT CALL A FUNCTION BEFORE DEFINE IT 
+// IN ANNYNOMOUS FUNCTION WE CANNOT CALL A FUNCTION BEFORE DEFINE IT THAT MEANS IT CANNOT SUPPORT HOSTING
+//IT CANNOT HAVE ANY NAME
+// IT IS USED WHEN WE ASSIGN FUNCTION IN THE THE VARIABLE
 const square=function(num){
     return num*num
 }
 
 console.log(square);
 console.log(square(3));
+
+//EXAMPLE
+let sum=function(a,b){
+    return a+b;
+}
+console.log('The Sum of the two number :',sum(2,3));
+
+//FAT ARROW FUNCTION 
+//IT IS A ADVANCED VERSION OF THE FUNCTION EXPRESSION SAME AS FUNCTION EXPRESSION
+const sub= (e,f) =>{
+    return e-f;
+}
+console.log('the sub is :',sub(5,2));
