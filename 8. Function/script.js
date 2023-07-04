@@ -48,3 +48,7 @@ const sub= (e,f) =>{
     return e-f;
 }
 console.log('the sub is :',sub(5,2));
+
+//one statement arrow function
+const multi =(num) => num*num;
+console.log('the oneliner arrow function: ',multi(3));
