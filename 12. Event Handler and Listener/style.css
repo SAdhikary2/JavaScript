@@ -21,8 +21,3 @@
 p{
     font-size: 2rem;
 }
-
-.round-border{
-    border-radius: 50%;
-    border: 5px solid black;
-}
