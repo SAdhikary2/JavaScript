@@ -13,19 +13,19 @@
 
     <nav>
         <div class="main-nav container flex">
-            <a href="#">
+            <a href="#" onclick="reload()">
                 <h1 class="hclass">Bartaman</h1>
             </a>
             <div class="nav-links">
                 <ul class="flex">
-                    <li class="hover-links nav-item">IPL</li>
-                    <li class="hover-links nav-item">FINANCE</li>
-                    <li class="hover-links nav-item">POLITICS</li>
+                    <li class="hover-links nav-item" id="ipl" onclick="onnavitemclick('ipl')">IPL</li>
+                    <li class="hover-links nav-item" id="finance" onclick="onnavitemclick('finance')">Finance </li>
+                    <li class="hover-links nav-item" id="politics" onclick="onnavitemclick('politics')">Politics</li>
                 </ul>
             </div>
 
             <div class="search-bar flex">
-                <input id="search-text" class="news-input" placeholder="Search news">
+                <input id="search-text" class="news-input"  placeholder="Search news">
                 <button class="search-button" id="search-button">Search</button>
             </div>
 
@@ -39,7 +39,7 @@
         </div>
     </main>
 
-    <template class="template-news-card">
+    <template class="template-news-card" id="template-news-card">
 
         <div class="card">
             <div class="card-header">

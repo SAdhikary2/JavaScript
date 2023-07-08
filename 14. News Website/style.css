@@ -58,6 +58,7 @@ nav{
   top: 0;
   left: 0;
   right: 0;
+  z-index: 99;
 }
 
 .nav-links ul{
@@ -156,3 +157,4 @@ main{
 .news-source{
     margin-block: 12px;
 }
+
